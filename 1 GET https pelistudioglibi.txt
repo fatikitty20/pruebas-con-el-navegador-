@@ -1,0 +1,42 @@
+=========================================== 1 ===========================================
+GET
+	https://pelistudioglibi.lovestoblog.com/pelisglibi/php/saludo.php?usuario=felipe
+
+
+{"usuario":"felipe","mensaje":"\u00a1Hola felipe!"}
+
+
+=========================================== 2 ===========================================
+
+POST
+	https://pelistudioglibi.lovestoblog.com/pelisglibi/php/pasatiempo-agrega.php
+	
+	
+	{"id":{"value":"4"},"nombre":{"value":"Only Yesterday \u2013 Isao Takahata (1991)"}}
+
+=========================================== 3 ===========================================
+POST
+	https://pelistudioglibi.lovestoblog.com/pelisglibi/php/pasatiempo-agrega.php
+
+
+{"status":409,"title":"Registro duplicado","detail":"Ya existe ese favorito en la base de datos.","type":"\/errors\/errorinterno.html"}
+
+
+=========================================== 4 ===========================================
+
+POST
+	https://pelistudioglibi.lovestoblog.com/pelisglibi/php/pasatiempo-elimina.php
+
+
+
+No hay datos de respuesta disponibles para esta solicitud
+
+=========================================== 5 ===========================================
+
+GET
+	https://pelistudioglibi.lovestoblog.com/pelisglibi/php/pasatiempo-vista-index.php
+
+
+{"lista":{"innerHTML":"<li>\r\n     <p>\r\n     <a href='pelisagregar.html?id=3'>Castle in the Sky &ndash; Hayao Miyazaki (1986)<\/a>\r\n     <\/p>\r\n    <\/li><li>\r\n     <p>\r\n     <a href='pelisagregar.html?id=4'>Only Yesterday &ndash; Isao Takahata (1991)<\/a>\r\n     <\/p>\r\n    <\/li><li>\r\n     <p>\r\n     <a href='pelisagregar.html?id=1'>Tales from Earthsea &ndash; Gor\u014d Miyazaki (2006)<\/a>\r\n     <\/p>\r\n    <\/li>"}}
+
+
